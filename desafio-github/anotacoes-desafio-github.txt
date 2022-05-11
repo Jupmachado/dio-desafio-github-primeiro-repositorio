@@ -8,7 +8,7 @@ https: é o padrão
 ssh: se tiver uma chave ssh ativada
 GitHub CLI: -
 
-Quando clonamos, adicionamos a referência do repositório remotodo ao repositório local. 
+Quando clonamos, adicionamos a referência do repositório remoto do repositório local. 
 Pode-se usar também com o comando git remote
 Comando: git remote add main <url>
 
