@@ -1,0 +1,61 @@
+Criando novo repositório: 
+
+Aba + > new repositor > nome do repositório > descrição > criar 
+Para baixar o repositório e trabalhar com ele na minha máquina: 
+
+Clona o commit a partir da aba code; 
+https: é o padrão 
+ssh: se tiver uma chave ssh ativada
+GitHub CLI: -
+
+Quando clonamos, adicionamos a referência do repositório remotodo ao repositório local. 
+Pode-se usar também com o comando git remote
+Comando: git remote add main <url>
+
+Essa palavra "main" é o nome que é dado a branch principal do seu repositório - pode ser qualquer nome. 
+
+No Git bash: 
+Criei uma pasta dentro da pasta workspace > git-dio 
+cd c:/workspace/git-dio 
+(Ao criar uma pasta de modo tradicional, posso abri-la e dentro dela já entrar com o gitbash que ai vai aparecer ela já criada no programa, ou, criar usando o código.)
+
+cd c:/workspace/git-dio 
+$ git clone (+ link copiado do github)
+receiving objects: 100% (6/6) all done. 
+
+cd c:/workspace/git-dio 
+$ cd dio-desafio-github-primeiro-repositorio/
+
+cd c:/workspace/git-dio/ dio-desafio-github-primeiro-repositorio/ (main)
+$ git status
+On branch main 
+nothing to commit, working tree clean
+cd c:/workspace/git-dio/ dio-desafio-github-primeiro-repositorio/ (main)
+
+Como fazer para as informações da máquina local, ir para o servidor remoto do github: 
+
+cd c:/workspace/git-dio/ dio-desafio-github-primeiro-repositorio/ (main)
+$ git add -a (para add todos os arquivos)
+$ git add . (“)
+
+cd c:/workspace/git-dio/ dio-desafio-github-primeiro-repositorio/ (main)
+$ git status
+
+Só adicionamos no controle de versão local 
+
+cd c:/workspace/git-dio/ dio-desafio-github-primeiro-repositorio/ (main)
+$ git commit -m “Inclusao das anotações do curso de Git/Github”
+Criou um commit para aquele arquivo 
+
+cd c:/workspace/git-dio/ dio-desafio-github-primeiro-repositorio/ (main)
+$ git status
+On Branch main 
+Your branch is ahead of ‘origin/main’ by 1 commit
+(use “git push” to publish your local commits)
+nothing to commit, working tree clean
+
+cd c:/workspace/git-dio/ dio-desafio-github-primeiro-repositorio/ (main)
+$ git push origin main 
+(Enviamos todos os commits que temos localmente para a nuvem)
+
+O gitbash é um terminal estendido para otimizar o uso do git.
